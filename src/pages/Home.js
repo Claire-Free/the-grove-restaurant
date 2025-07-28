@@ -98,7 +98,8 @@ import { Link } from "react-router-dom";
 import dish1 from "../assets/dish1.jpg";
 import dish2 from "../assets/dish2.jpg";
 import dish3 from "../assets/dish3.jpg";
-import farm from "../assets/farm.jpg";
+import chef from "../assets/chef.jpg";
+import dining from "../assets/dining.jpg";
 
 
 export default function Home() {
@@ -114,7 +115,9 @@ export default function Home() {
           playsInline
           className="absolute w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-white">
+        {/* <div className="absolute inset-0  flex flex-col justify-center items-center text-white"> */}
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-white pt-[100px]">
+
           <h1 className="text-6xl font-heading mb-4">The Grove Kitchen & Bar</h1>
           <p className="text-lg mb-6 font-light">
             Seasonal, locally-sourced dining in the heart of Los Angeles.
@@ -160,7 +163,48 @@ export default function Home() {
     ))}
   </div>
 </section>
+ <div className="bg-white min-h-screen">
+      {/* Hero Section */}
+      <section className="relative h-[50vh]">
+        <img
+          src={dining}
+          alt="Dining"
+          className="absolute w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-white">
+          <h1 className="text-6xl font-heading mb-2">Our Story</h1>
+          <p className="text-lg font-light">Crafted with passion, inspired by California.</p>
+        </div>
+      </section>
 
+      {/* Story Section */}
+      <section className="max-w-5xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
+        <img
+          src={chef}
+          alt="Chef"
+          className="rounded-xl shadow-lg object-cover w-full h-[400px]"
+        />
+        <div>
+          <h2 className="text-4xl font-heading mb-4">A Farm-to-Table Experience</h2>
+          <p className="text-lg mb-4">
+            The Grove Kitchen & Bar celebrates California’s rich agriculture
+            by working hand-in-hand with local farmers, fishermen, and artisans.
+          </p>
+          <p className="text-lg mb-6">
+            Our menu changes with the seasons, blending rustic techniques with
+            modern flavors. Every dish tells the story of its origins—whether
+            from the coast, farm, or vineyard.
+          </p>
+
+          <ul className="space-y-2 text-lg">
+            <li>🍷 Curated California Wine List</li>
+            <li>🌿 Locally-Sourced Organic Ingredients</li>
+            <li>🔥 Wood-Fired Cooking</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+{/* 
 <section className="flex flex-col md:flex-row items-center gap-8 px-8 py-16 bg-white">
   <img
     src={farm}
@@ -183,7 +227,7 @@ export default function Home() {
       we want you to feel at home, nourished, and connected to the food on your plate.
     </p>
   </div>
-</section>
+</section> */}
 
 
       {/* Our Story */}
