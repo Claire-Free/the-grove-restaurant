@@ -95,6 +95,11 @@
 
 // src/pages/Home.jsx
 import { Link } from "react-router-dom";
+import dish1 from "../assets/dish1.jpg";
+import dish2 from "../assets/dish2.jpg";
+import dish3 from "../assets/dish3.jpg";
+import farm from "../assets/farm.jpg";
+
 
 export default function Home() {
   return (
@@ -123,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* Signature Dishes */}
-      <section className="py-16 px-8 text-center bg-beige">
+      {/* <section className="py-16 px-8 text-center bg-beige">
         <h2 className="text-4xl font-heading mb-8">Signature Dishes</h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {[
@@ -140,10 +145,49 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
+      <section className="py-16 px-8 text-center bg-beige">
+  <h2 className="text-4xl font-heading mb-8">Signature Dishes</h2>
+  <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    {[dish1, dish2, dish3].map((img, i) => (
+      <div key={i} className="overflow-hidden rounded-xl shadow-lg">
+        <img
+          src={img}
+          alt={`Signature Dish ${i + 1}`}
+          className="w-full h-[500px] object-cover hover:scale-110 transition-transform duration-500"
+        />
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="flex flex-col md:flex-row items-center gap-8 px-8 py-16 bg-white">
+  <img
+    src={farm}
+    alt="Our Story"
+    className="w-full md:w-1/2 rounded-xl shadow-lg object-cover"
+  />
+  <div className="md:w-1/2">
+    <h2 className="text-4xl font-heading mb-4">Our Story</h2>
+    <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+      The Grove Kitchen & Bar was born out of a love for seasonal cooking and 
+      the belief that food is at its best when shared with the people you love. 
+      Our chefs work hand-in-hand with local farmers and artisans, crafting dishes 
+      that highlight the vibrant flavors of California’s freshest produce, meats, 
+      and seafood.
+    </p>
+    <p className="text-lg text-gray-700 leading-relaxed">
+      Every plate tells the story of where it came from—the farm, the ocean, 
+      the hands that harvested and prepared it. Whether you’re here for a 
+      celebratory dinner, a weekend brunch, or a quiet glass of wine at the bar, 
+      we want you to feel at home, nourished, and connected to the food on your plate.
+    </p>
+  </div>
+</section>
+
 
       {/* Our Story */}
-      <section className="flex flex-col md:flex-row items-center gap-8 px-8 py-16 bg-white">
+      {/* <section className="flex flex-col md:flex-row items-center gap-8 px-8 py-16 bg-white">
         <img
           src={`${process.env.PUBLIC_URL}/farm.jpg`}
           alt="Our Story"
@@ -165,7 +209,7 @@ export default function Home() {
             we want you to feel at home, nourished, and connected to the food on your plate.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* Reservation CTA */}
       <section className="text-center py-16 bg-forest text-white">
