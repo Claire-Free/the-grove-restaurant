@@ -1,15 +1,19 @@
 {
   "files": {
     "main.css": "/the-grove-restaurant/static/css/main.82166a4f.css",
-    "main.js": "/the-grove-restaurant/static/js/main.4fcf0e99.js",
+    "main.js": "/the-grove-restaurant/static/js/main.c8782e43.js",
     "static/js/453.7dd7b2b5.chunk.js": "/the-grove-restaurant/static/js/453.7dd7b2b5.chunk.js",
+    "static/media/dish1.jpg": "/the-grove-restaurant/static/media/dish1.4d539180f9492b7ec07d.jpg",
+    "static/media/dish3.jpg": "/the-grove-restaurant/static/media/dish3.9ec8e84a5df0ce8a7e45.jpg",
+    "static/media/dish2.jpg": "/the-grove-restaurant/static/media/dish2.61be369868fceab7bac4.jpg",
+    "static/media/farm.jpg": "/the-grove-restaurant/static/media/farm.c45f5bc9a79dff53ce4a.jpg",
     "index.html": "/the-grove-restaurant/index.html",
     "main.82166a4f.css.map": "/the-grove-restaurant/static/css/main.82166a4f.css.map",
-    "main.4fcf0e99.js.map": "/the-grove-restaurant/static/js/main.4fcf0e99.js.map",
+    "main.c8782e43.js.map": "/the-grove-restaurant/static/js/main.c8782e43.js.map",
     "453.7dd7b2b5.chunk.js.map": "/the-grove-restaurant/static/js/453.7dd7b2b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82166a4f.css",
-    "static/js/main.4fcf0e99.js"
+    "static/js/main.c8782e43.js"
   ]
 }
