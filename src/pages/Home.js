@@ -1,0 +1,94 @@
+// src/pages/Home.jsx
+import { Link } from "react-router-dom";
+
+export default function Home() {
+  return (
+    <div className="bg-beige">
+    
+<section className="relative h-[90vh]">
+  <video
+    src="/hero.mp4"
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="absolute w-full h-full object-cover"
+  />
+  <div className="absolute inset-0 bg-black/10 flex flex-col justify-center items-center text-white">
+    <h1 className="text-6xl font-heading mb-4">The Grove Kitchen & Bar</h1>
+    <p className="text-lg mb-6 font-light">
+      Seasonal, locally-sourced dining in the heart of Los Angeles.
+    </p>
+    <button className="bg-terracotta px-6 py-3 rounded-lg text-white font-semibold hover:scale-105 transition">
+      Book a Table
+    </button>
+  </div>
+
+
+        <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white">
+          <h1 className="text-6xl font-heading mb-4">The Grove Kitchen & Bar</h1>
+          <p className="text-lg mb-6 font-light">
+            Seasonal, locally-sourced dining in the heart of Los Angeles.
+          </p>
+          <Link to="/reservations">
+  <button className="bg-terracotta px-6 py-3 rounded-lg text-white font-semibold hover:scale-105 transition">
+    Book a Table
+  </button>
+</Link>
+        </div>
+      </section>
+      <section className="py-16 px-8 text-center bg-beige">
+  <h2 className="text-4xl font-heading mb-8">Signature Dishes</h2>
+  <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    {[
+      { filename: "dish1.jpg", alt: "Vegetarian starter flatlay" },
+      { filename: "dish2.jpg", alt: "Elegant plated entrée" },
+      { filename: "dish3.jpg", alt: "Farm ingredient still life" },
+    ].map((d, i) => (
+      <div key={i} className="overflow-hidden rounded-xl shadow-lg">
+        <img
+          src={`/${d.filename}`}
+          alt={d.alt}
+          className="w-full h-[500px] object-cover hover:scale-110 transition-transform duration-500"
+        />
+      </div>
+    ))}
+  </div>
+</section>
+
+
+      <section className="flex flex-col md:flex-row items-center gap-8 px-8 py-16 bg-white">
+  <img
+    src="/farm.jpg" 
+    alt="Our Story"
+    className="w-full md:w-1/2 rounded-xl shadow-lg object-cover"
+  />
+  <div className="md:w-1/2">
+    <h2 className="text-4xl font-heading mb-4">Our Story</h2>
+    <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+      The Grove Kitchen & Bar was born out of a love for seasonal cooking and 
+      the belief that food is at its best when shared with the people you love. 
+      Our chefs work hand-in-hand with local farmers and artisans, crafting dishes 
+      that highlight the vibrant flavors of California’s freshest produce, meats, 
+      and seafood.
+    </p>
+    <p className="text-lg text-gray-700 leading-relaxed">
+      Every plate tells the story of where it came from—the farm, the ocean, 
+      the hands that harvested and prepared it. Whether you’re here for a 
+      celebratory dinner, a weekend brunch, or a quiet glass of wine at the bar, 
+      we want you to feel at home, nourished, and connected to the food on your plate.
+    </p>
+  </div>
+</section>
+
+
+      {/* Reservation CTA */}
+      <section className="text-center py-16 bg-forest text-white">
+        <h2 className="text-3xl font-heading mb-4">Ready to Dine With Us?</h2>
+        <button className="bg-terracotta px-6 py-3 rounded-lg hover:scale-105 transition">
+          Reserve a Table
+        </button>
+      </section>
+    </div>
+  );
+}
