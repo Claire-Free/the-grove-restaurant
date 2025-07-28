@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/the-grove-restaurant/static/css/main.82166a4f.css",
+    "main.js": "/the-grove-restaurant/static/js/main.fa2b89a3.js",
+    "static/js/453.7dd7b2b5.chunk.js": "/the-grove-restaurant/static/js/453.7dd7b2b5.chunk.js",
+    "index.html": "/the-grove-restaurant/index.html",
+    "main.82166a4f.css.map": "/the-grove-restaurant/static/css/main.82166a4f.css.map",
+    "main.fa2b89a3.js.map": "/the-grove-restaurant/static/js/main.fa2b89a3.js.map",
+    "453.7dd7b2b5.chunk.js.map": "/the-grove-restaurant/static/js/453.7dd7b2b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82166a4f.css",
+    "static/js/main.fa2b89a3.js"
+  ]
+}
