@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/the-grove-restaurant/static/css/main.43fde8ce.css",
-    "main.js": "/the-grove-restaurant/static/js/main.0543be64.js",
-    "static/js/453.7dd7b2b5.chunk.js": "/the-grove-restaurant/static/js/453.7dd7b2b5.chunk.js",
-    "static/media/contact-hero.jpg": "/the-grove-restaurant/static/media/contact-hero.3dfbe0caabab89f27977.jpg",
-    "static/media/dish1.jpg": "/the-grove-restaurant/static/media/dish1.4d539180f9492b7ec07d.jpg",
-    "static/media/dish3.jpg": "/the-grove-restaurant/static/media/dish3.9ec8e84a5df0ce8a7e45.jpg",
-    "static/media/dish2.jpg": "/the-grove-restaurant/static/media/dish2.61be369868fceab7bac4.jpg",
-    "static/media/dining.jpg": "/the-grove-restaurant/static/media/dining.d1f1448d82dbc9f5bfb8.jpg",
-    "static/media/chef.jpg": "/the-grove-restaurant/static/media/chef.c7ccec567756dfda207e.jpg",
-    "index.html": "/the-grove-restaurant/index.html",
-    "main.43fde8ce.css.map": "/the-grove-restaurant/static/css/main.43fde8ce.css.map",
-    "main.0543be64.js.map": "/the-grove-restaurant/static/js/main.0543be64.js.map",
-    "453.7dd7b2b5.chunk.js.map": "/the-grove-restaurant/static/js/453.7dd7b2b5.chunk.js.map"
+    "main.css": "/static/css/main.43fde8ce.css",
+    "main.js": "/static/js/main.85d5ecba.js",
+    "static/js/453.7dd7b2b5.chunk.js": "/static/js/453.7dd7b2b5.chunk.js",
+    "static/media/contact-hero.jpg": "/static/media/contact-hero.3dfbe0caabab89f27977.jpg",
+    "static/media/dish1.jpg": "/static/media/dish1.4d539180f9492b7ec07d.jpg",
+    "static/media/dish3.jpg": "/static/media/dish3.9ec8e84a5df0ce8a7e45.jpg",
+    "static/media/dish2.jpg": "/static/media/dish2.61be369868fceab7bac4.jpg",
+    "static/media/dining.jpg": "/static/media/dining.d1f1448d82dbc9f5bfb8.jpg",
+    "static/media/chef.jpg": "/static/media/chef.c7ccec567756dfda207e.jpg",
+    "index.html": "/index.html",
+    "main.43fde8ce.css.map": "/static/css/main.43fde8ce.css.map",
+    "main.85d5ecba.js.map": "/static/js/main.85d5ecba.js.map",
+    "453.7dd7b2b5.chunk.js.map": "/static/js/453.7dd7b2b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.43fde8ce.css",
-    "static/js/main.0543be64.js"
+    "static/js/main.85d5ecba.js"
   ]
 }
